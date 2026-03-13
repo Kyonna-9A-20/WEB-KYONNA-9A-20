@@ -14,6 +14,9 @@ header{
     position: relative;
     
 }
+header h1{
+    color:#5DA24D ;
+}
 .logo{
     width: 160px;
     position: absolute;
@@ -142,9 +145,9 @@ section.home{
     font-size: 24px;
 }
 .cardProfile h3{
-    color: ;
+    color: #eb8378;
 }
 
 .cardProfile p{
-    color: ;
+    color: #ec7868;
 }
