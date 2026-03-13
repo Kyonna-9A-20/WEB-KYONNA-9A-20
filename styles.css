@@ -38,12 +38,26 @@ nav a{
 nav a:hover{
     color: #355c2c;
     background-color: #FFBD35;
-    transition: 0,7s;
+    transition: 0.7s;
     border-radius: 10px 10px 10px 10px;
 }
 .deskripsiBiotek{
-    color: #3f1f09;
+    color: #663b30;
+    max-width: 70%;    
+    font-size: 20px;
 }
+.namaBiotek{
+    font-size: 50px;
+}
+.deskBiotek{
+    color: #493a3a;
+    font-size: 80px;
+}
+.deskripsiBiotek p{
+    font-size: 25px;
+    text-shadow:  4px 4px 8px #fff1d6;
+}
+
 body{
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,13 +72,7 @@ section.home{
     background-image: url(BG\ WEB.png);
 }
 
-.namaBiotek{
-    font-size: 50px;
-}
-.deskBiotek{
-    color: #493a3a;
-    font-size: 20px;
-}
+
 .containerAbout{
     background-color: #fbf2a1;
     color: #5DA24D;
@@ -77,26 +85,31 @@ section.home{
     width: 300px;
 }
 
-section.howto{
+
+.deskHowto{
     background-color: 	#ffe887;
+    color: #33250a ;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 40px;
 }
-.carabuat{
-    width: 50%;
+.deskHowto img{
+    width: 250px;
 }
+
 .cardProfile{
     background-color:#ffcd6f;
     padding: 15px;
     width:300px;
     margin: auto;
     text-align: center;
+    border-radius: 10px 10px 10px 10px;
 }
-img{
-    width:100%;
+.cardProfile img{
+    width: 55%;
 }
+
 .medsos{
     left: 0;
     bottom: 0;
@@ -110,3 +123,4 @@ img{
     padding: 10px 10px;
     font-size: 24px;
 }
+
