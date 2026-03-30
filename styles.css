@@ -3,11 +3,10 @@ html{
 }
 header{
     text-align: center;
-    justify-content: center;
     border-radius: 15px;
     background: #fffaa3; 
     height: 110px;
-    box-shadow: 2px;
+    box-shadow: 2px 2px 2px;
     position: relative;
 }
 header h1{
@@ -20,9 +19,7 @@ header h1{
     top: 20px;
 }
 nav{
-    margin-top: 25px;
-    margin-bottom: 50px;
-    font-size: 20px;
+    margin: 25px 50px 0;
     padding: 4px;
 }
 nav a{
@@ -38,7 +35,6 @@ nav a:hover{
     color: #355c2c;
     background-color: #FFBD35;
     transition: 0.7s;
-    border-radius: 10px ;
 }
 
 .deskripsiBiotek{
@@ -57,17 +53,11 @@ body{
 }
 section.home{
     height: 800px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
-
-
 .containerAbout{
     background-color: #fbf2a1;
     color: #5DA24D;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 40px;
     font-size: 20px;
@@ -85,20 +75,19 @@ section.home{
     background-color: 	#ffe887;
     color: #33250a ;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 40px;
 }
 .deskHowto img{
     width: 250px;
 }
-.carabuat h3{
+.carabuat h2{
     text-align: center;
     color: #995848;
 }
 .carabuat ol{
     color: #ad796c;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .cardProfile{
@@ -107,14 +96,12 @@ section.home{
     width:300px;
     margin: auto;
     text-align: center;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
 }
 .cardProfile img{
     width: 55%;
 }
 .medsos{
-    left: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
     height:40px;
